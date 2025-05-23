@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    private static ArrayList<Kontakt> contacts = new ArrayList<>();
+    private static ArrayList<Kontakt> kontakte = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -45,29 +45,29 @@ public class Main {
         System.out.print("Telefonnummer: ");
         String phone = scanner.nextLine();
 
-        contacts.add(new Kontakt(name, phone));
+        kontakte.add(new Kontakt(name, phone));
         System.out.println("Kontakt hinzugefügt.");
     }
 
     private static void showContacts() {
-        if (contacts.isEmpty()) {
+        if (kontakte.isEmpty()) {
             System.out.println("Keine Kontakte vorhanden.");
         } else {
             System.out.println("Gespeicherte Kontakte:");
-            for (int i = 0; i < contacts.size(); i++) {
-                System.out.println((i + 1) + ". " + contacts.get(i));
+            for (int i = 0; i < kontakte.size(); i++) {
+                System.out.println((i + 1) + ". " + kontakte.get(i));
             }
         }
     }
 
     private static void deleteContact() {
         showContacts();
-        if (!contacts.isEmpty()) {
+        if (!kontakte.isEmpty()) {
             System.out.print("Nummer des zu löschenden Kontakts: ");
             int index = Integer.parseInt(scanner.nextLine()) - 1;
 
-            if (index >= 0 && index < contacts.size()) {
-                contacts.remove(index);
+            if (index >= 0 && index < kontakte.size()) {
+                kontakte.remove(index);
                 System.out.println("Kontakt gelöscht.");
             } else {
                 System.out.println("Ungültiger Index.");
