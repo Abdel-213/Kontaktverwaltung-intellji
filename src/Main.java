@@ -44,8 +44,10 @@ public class Main {
         String name = scanner.nextLine();
         System.out.print("Telefonnummer: ");
         String phone = scanner.nextLine();
+        System.out.println("beruf: ");
+        String job = scanner.nextLine();
 
-        kontakte.add(new Kontakt(name, phone));
+        kontakte.add(new Kontakt(name, phone, job));
         System.out.println("Kontakt hinzugefügt.");
     }
 
