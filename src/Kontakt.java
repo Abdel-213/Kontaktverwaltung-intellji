@@ -23,7 +23,7 @@ public class Kontakt {
     }
 
     public String toString() {
-        return "Name: " + name + ", Telefonnummer: " + age + " und ist als " + job + " Tätig.";
+        return  name + " ist " + age + " jahre alt und ist als " + job + " Tätig.";
     }
 }
 
