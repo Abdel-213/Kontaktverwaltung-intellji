@@ -1,11 +1,11 @@
 public class Kontakt {
     private String name;
-    private String phone;
+    private String age;
     private String job;
 
-    public Kontakt(String name, String phone, String job) {
+    public Kontakt(String name, String age, String job) {
         this.name = name;
-        this.phone = phone;
+        this.age = age;
         this.job = job;
     }
 
@@ -13,8 +13,8 @@ public class Kontakt {
         return name;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getAge() {
+        return age;
     }
 
 
@@ -23,7 +23,7 @@ public class Kontakt {
     }
 
     public String toString() {
-        return "Name: " + name + ", Telefonnummer: " + phone + " und ist als " + job + " Tätig.";
+        return "Name: " + name + ", Telefonnummer: " + age + " und ist als " + job + " Tätig.";
     }
 }
 
