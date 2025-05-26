@@ -1,26 +1,23 @@
-# 📇 Java-Kontaktverwaltung
+# Kontaktverwaltung
 
-Ein einfaches Konsolenprogramm in Java zur Verwaltung von Kontakten. Es dient als Übungsprojekt zum Einstieg in objektorientierte Programmierung, Benutzereingaben und Fehlerbehandlung.
+Dieses Java-Konsolenprogramm ermöglicht es, Kontakte hinzuzufügen, anzuzeigen, zu löschen und gelöschte Kontakte wiederherzustellen.
 
----
+## Funktionen
 
-## 🧩 Funktionen
+- Kontakt hinzufügen (Name, Alter, Beruf)
+- Kontakte anzeigen
+- Kontakt löschen
+- Gelöschte Kontakte wiederherstellen
+- Daten werden in einer JSON-Datei gespeichert
 
-- ✅ Kontakt hinzufügen
-- 📋 Kontakte anzeigen
-- ❌ Kontakt löschen
-- ♻️ Gelöschte Kontakte wiederherstellen
-- 🚪 Programm beenden
+## Anforderungen
 
----
+- Java 11 oder höher
+- Gson-Bibliothek für JSON (falls du JSON verwendest)
 
-## 🔍 Projektstruktur
+## Start
 
-- `Main.java` – Hauptprogramm mit Menü
-- `Kontakt.java` – Datenklasse für einen Kontakt
-- `KontaktManager.java` – (optional) Trennung der Logik in eine eigene Klasse
-
----
-
-## 💡 Beispielausgabe
+In IntelliJ:
+- Projekt öffnen
+- `Main.java` ausführen
 
