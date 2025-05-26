@@ -3,6 +3,9 @@ public class Kontakt {
     private String age;
     private String job;
 
+
+
+
     public Kontakt(String name, String age, String job) {
         this.name = name;
         this.age = age;
