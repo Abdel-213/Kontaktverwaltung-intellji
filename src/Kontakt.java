@@ -14,7 +14,7 @@ public class Kontakt {
 
     public String getName() {
         return name;
-    }
+    } // Gibt den Namen zurück.
 
     public String getAge() {
         return age;

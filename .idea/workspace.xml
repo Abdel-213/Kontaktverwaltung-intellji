@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d8a696-0a54-47ef-997d-df885bb0806e" name="Changes" comment="wiederherstellung der kontakte">
+    <list default="true" id="b5d8a696-0a54-47ef-997d-df885bb0806e" name="Changes" comment="readme datei hinzufügen">
+      <change afterPath="$PROJECT_DIR$/libs/gson-2.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakte.json" beforeDir="false" afterPath="$PROJECT_DIR$/kontakte.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateiManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kontakt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kontakt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KontaktVerwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontaktVerwaltung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -33,15 +41,32 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.KontaktVerwaltungGUI.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/adaml/Desktop/java/Kontaktverwaltung-intellji/src/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/adaml/Desktop/java/Kontaktverwaltung-intellji/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adaml\Desktop\java\Kontaktverwaltung-intellji\.idea" />
+      <recent name="C:\Users\adaml\Desktop\java\Kontaktverwaltung-intellji" />
+      <recent name="C:\Users\adaml\Desktop\java\Kontaktverwaltung-intellji\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="KontaktVerwaltungGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KontaktVerwaltungGUI" />
+      <module name="Kontaktverwaltung-intellji" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Kontaktverwaltung-intellji" />
@@ -52,6 +77,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.KontaktVerwaltungGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -104,14 +130,47 @@
       <option name="project" value="LOCAL" />
       <updated>1748189186046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="wiederherstellung der kontakte">
+      <option name="closed" value="true" />
+      <created>1748189566641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748189566641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="readme datei hinzufügen">
+      <option name="closed" value="true" />
+      <created>1748256717937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748256717937</updated>
+    </task>
+    <task id="LOCAL-00008" summary="readme datei hinzufügen">
+      <option name="closed" value="true" />
+      <created>1748256938194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748256938194</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readme datei hinzufügen">
+      <option name="closed" value="true" />
+      <created>1748262725811</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748262725811</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialisire commit" />
     <MESSAGE value="initialisiere commit" />
     <MESSAGE value="wiederherstellung der kontakte" />
-    <option name="LAST_COMMIT_MESSAGE" value="wiederherstellung der kontakte" />
+    <MESSAGE value="readme datei hinzufügen" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme datei hinzufügen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -119,6 +178,10 @@
         <breakpoint type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
