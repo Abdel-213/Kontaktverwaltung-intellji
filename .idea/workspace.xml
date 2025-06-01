@@ -52,7 +52,7 @@
       <recent name="C:\Users\adaml\Desktop\java\Kontaktverwaltung-intellji\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.KontaktVerwaltungGUI">
     <configuration name="KontaktVerwaltungGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KontaktVerwaltungGUI" />
       <module name="Kontaktverwaltung-intellji" />
@@ -69,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.KontaktVerwaltungGUI" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
